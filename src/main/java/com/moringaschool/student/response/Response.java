@@ -12,7 +12,7 @@ public class Response {
     @JsonProperty("header")
     private Header header;
     @JsonProperty("body")
-    private Object body;
+    private Object bodyObject;
 
     public Response() {
         this.header = new Header();
@@ -26,11 +26,11 @@ public class Response {
         this.header = header;
     }
 
-    public Object getBody() {
-        return body;
+    public Object getBodyObject() {
+        return bodyObject;
     }
 
-    public void setBody(Object body) {
-        this.body = body;
+    public void setBodyObject(Object bodyObject) {
+        this.bodyObject = bodyObject;
     }
 }

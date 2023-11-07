@@ -1,9 +1,9 @@
 package com.moringaschool.student;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.moringaschool.student.response.Message;
-import com.moringaschool.student.service.UserService;
 import com.moringaschool.student.service.UserServiceImpl;
-import org.codehaus.jackson.map.ObjectMapper;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import com.moringaschool.student.model.User;
@@ -25,7 +25,7 @@ public class Main {
 
     private static final UserServiceImpl service = new UserServiceImpl();
 
-    private static ObjectMapper om = new ObjectMapper();
+    private static final ObjectMapper om = new ObjectMapper();
 
 
     public static void main(String[] args) {

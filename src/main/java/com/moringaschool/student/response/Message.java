@@ -19,7 +19,7 @@ public class Message extends Response {
         response.getHeader().setResponseMessage(responseMessage);
         response.getHeader().setTimestamp(new Timestamp(System.currentTimeMillis()).toString());
         if(bodyResponseObject!=null){
-            response.setBody(bodyResponseObject);
+            response.setBodyObject(bodyResponseObject);
         }
         return response;
 

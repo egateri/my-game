@@ -8,6 +8,13 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicInteger;
 
+/**
+ *
+ * @author egateri@gmail.com
+ *
+ *
+ */
+
 public class UserServiceImpl implements UserService{
     public static Map<Object, Object> users = new HashMap<>();
     private static final AtomicInteger count = new AtomicInteger(0);

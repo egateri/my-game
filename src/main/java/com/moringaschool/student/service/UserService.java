@@ -5,6 +5,13 @@ import com.moringaschool.student.model.User;
 
 import java.util.List;
 
+/**
+ *
+ * @author egateri@gmail.com
+ *
+ *
+ */
+
 public interface UserService {
 
     public User addUser (User user);

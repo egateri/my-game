@@ -1,7 +1,11 @@
 package com.moringaschool.student.model;
 
-
-import org.codehaus.jackson.annotate.JsonProperty;
+/**
+ *
+ * @author egateri@gmail.com
+ *
+ *
+ */
 
 public class User {
 

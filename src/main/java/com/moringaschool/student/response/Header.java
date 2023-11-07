@@ -1,6 +1,8 @@
 package com.moringaschool.student.response;
 
+
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 /**
  *
  * @author egateri@gmail.com
