@@ -35,7 +35,7 @@ public class Main {
             response.type("application/json");
             String requestRefId = UUID.randomUUID().toString();
             String name = request.headers("Authorization");
-            System.out.println(name);
+//            System.out.println(name);
             String userDetails= request.body();
             User newUser =om.readValue(userDetails, User.class);
             response.status(201); // 201 Created
