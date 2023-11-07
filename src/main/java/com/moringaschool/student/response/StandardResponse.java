@@ -1,12 +1,12 @@
 package com.moringaschool.student.response;
 
-import com.google.gson.JsonElement;
+//import com.google.gson.JsonElement;
 
 public class StandardResponse {
 
     private StatusResponse status;
     private String message;
-    private JsonElement data;
+//    private JsonElement data;
 
     public StandardResponse(StatusResponse status) {
         this.status = status;
@@ -17,16 +17,9 @@ public class StandardResponse {
         this.message = message;
     }
 
-    public StandardResponse(StatusResponse status, JsonElement data) {
-        this.status = status;
-        this.data = data;
-    }
 
-    public StandardResponse(StatusResponse status, String message, JsonElement data) {
-        this.status = status;
-        this.message = message;
-        this.data = data;
-    }
+
+
 
     public StatusResponse getStatus() {
         return status;
@@ -44,13 +37,7 @@ public class StandardResponse {
         this.message = message;
     }
 
-    public JsonElement getData() {
-        return data;
-    }
 
-    public void setData(JsonElement data) {
-        this.data = data;
-    }
 
 
 }
