@@ -19,6 +19,7 @@ dependencies {
 
 
     implementation 'com.fasterxml:jackson-xml-databind:0.6.2'
+    implementation 'com.fasterxml.jackson.core:jackson-annotations:2.15.2'
     testImplementation(platform('org.junit:junit-bom:5.9.1'))
     testImplementation 'org.junit.jupiter:junit-jupiter'
     implementation group: 'com.sparkjava', name: 'spark-core',version:'2.9.4'
