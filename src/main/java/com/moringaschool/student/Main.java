@@ -23,8 +23,7 @@ public class Main {
 
     private static final Logger logger = LoggerFactory.getLogger(Main.class);
 
-//    private static UserServiceImpl service = new UserServiceImpl();
-    private static UserService service;
+    private static final UserServiceImpl service = new UserServiceImpl();
 
     private static ObjectMapper om = new ObjectMapper();
 
