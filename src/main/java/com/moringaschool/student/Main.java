@@ -1,6 +1,7 @@
 package com.moringaschool.student;
 
 import com.moringaschool.student.response.Message;
+import com.moringaschool.student.service.UserService;
 import com.moringaschool.student.service.UserServiceImpl;
 import org.codehaus.jackson.map.ObjectMapper;
 import org.slf4j.Logger;
@@ -22,7 +23,8 @@ public class Main {
 
     private static final Logger logger = LoggerFactory.getLogger(Main.class);
 
-    private static UserServiceImpl service = new UserServiceImpl();
+//    private static UserServiceImpl service = new UserServiceImpl();
+    private static UserService service;
 
     private static ObjectMapper om = new ObjectMapper();
 
